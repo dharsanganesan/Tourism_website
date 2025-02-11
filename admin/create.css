@@ -1,0 +1,112 @@
+*,
+    *:focus {
+      outline: none;
+    }
+.input{
+    color:#ff3f00;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: bold;
+}
+    .form {
+  margin-left: 26%;
+    }
+    .form-item {
+      position: relative;
+      margin-bottom: 15px;
+    }
+    .form-item .input {
+        display: block;
+        width: 100vh;
+        height: 55px;
+        background: transparent;
+        border: solid 1px #ccc;
+        transition: all 0.3s ease;
+        padding: 0 15px;
+        border-radius: 12px;
+    }
+    .form-item .input:focus {
+      border-color: #ff3f00;
+    }
+    .form-item label {
+      position: absolute;
+      cursor: text;
+      z-index: 2;
+      top: 13px;
+      left: 10px;
+      font-family: cursive;
+      font-size: 20px;
+      font-weight: bold;
+      background: #fff;
+      padding: 0 10px;
+      color: #999;
+      transition: all 0.3s ease;
+    }
+    .form-item .input:focus + label,
+    .form-item .input:valid + label {
+      font-size: 11px;
+      top: -5px;
+    }
+    .form-item .input:focus + label {
+      color: #ff3f00;
+    }
+    .submit{
+        width: 100px;
+        height: 8vh;
+        border-radius: 15px;
+        background-color: #ff3f00;
+        font-weight: bold;
+        font-family: cursive;
+        margin-left: 24vh;
+        border-color: #ff3f00;
+        margin-top: 15px;
+    }
+  .text{
+    font-size: 50px;
+    font-family: cursive;
+    color: #ff3f00;
+    margin-bottom: -40px;
+    font-weight: bold;
+}
+.img{
+    width: 70%;
+    height: 70%;
+    margin-left: 90px;
+    margin-top: 90px;
+}
+.namely {
+    color: #999;
+    font-family: cursive;
+    font-size: 21px;
+    margin-left: 19px;
+}
+.label_32 {
+    font-family: cursive;
+    color: black;
+    text-align: left;
+    font-weight: 700;
+    padding-left: 40px;
+}
+.submit{
+    margin-block: 0px;
+    background-color: greenyellow;
+    border-color: greenyellow;
+    margin-left: 30px;
+    width: 45%;
+    color: black;
+    height: 47px;
+    font-weight: 700;
+    font-family: cursive;
+}
+.reset{
+    margin-block: 0px;
+    background-color: red;
+    border-color: red;
+    margin-left: 30px;
+    width: 45%;
+    color: black;
+    height: 47px;
+    font-weight: 700;
+    font-family: cursive;
+    border-radius:15px;
+}
